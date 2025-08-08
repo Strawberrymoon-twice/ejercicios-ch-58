@@ -2,7 +2,7 @@
 num=1
 limit=1000
 while num <= limit:
-    if num%15 == 0:
+    if num%3 == 0 and num%5==0:
         print("Fizz Buzz")
     elif num%5 == 0:
         print("Fizz")
